@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.introduction .container {
+    background-color: rgb(68, 133, 105);
+    font-family: "Sacramento", cursive;
+}
+
+.introduction .container h2 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.introduction .container .head {
+    padding-top: 100px;
+}
+
+
+.about-me img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me h1 {
+        color: #66bfbf;
+        font-family: "Montserrat", sans-serif;
+        font-size: 2.5rem;
+        font-weight: normal;
+        padding-bottom: 30px;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.my-skill .container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: 50px auto 0 auto;
+    text-align: left;
+    row-gap: 50px;
+}
+
+.my-skill h1 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+.my-skill img {
+    float: left;
+    margin: 10px;
+}
+
+.contact * {
+    margin: 20px;
+}
+
+.contact h1{
+    font-size: 50px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.contact h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact button {
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgb(70, 183, 145);
+    border: none;
+    border-radius: 50px;
+}
+
+.contact button:hover {
+    background-color: rgb(12, 85, 61);
+}
+
+.footer .ul {
+    list-style-type: none;
+}
+
+.footer {
+    background-color: #66bfbf;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.footer .container {
+    width: 30%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 10px;
+    row-gap: 30px;
+    margin: 50px;
+}
+
+.footer .copy {
+    grid-column: 1/4;
+}
+
